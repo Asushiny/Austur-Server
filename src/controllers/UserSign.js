@@ -3,7 +3,7 @@ const UserSign = require('../models/UserSignModel')
 const {
 	passencrypt,
 	passdecode
-} = require('../bcrypt/index')
+} = require('../../bcrypt/index')
 //插件
 const jwt = require('jsonwebtoken')
 const User = async ctx => {
